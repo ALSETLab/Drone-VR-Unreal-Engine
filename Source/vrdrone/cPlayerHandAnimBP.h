@@ -1,23 +1,3 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
-#pragma once
-
-#include "CoreMinimal.h"
-#include "VehicleAnimInstance.h"
-#include "cPlayerHandAnimBP.generated.h"
-
-/**
- * 
- */
-UCLASS()
-class VRDRONE_API UcPlayerHandAnimBP : public UVehicleAnimInstance
-{
-	GENERATED_BODY()
-    public:
-        UcPlayerHandAnimBP(const FObjectInitializer& ObjectInitializer);
-        UFUNCTION()
-            virtual void SetGripValue(float a_fGrip);
-    protected:
-        UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Blend")
-            float m_fGripVal;
-};
+version https://git-lfs.github.com/spec/v1
+oid sha256:635170f139502be88aafb91eb22c79602b9d7ba545c5f3b5d6ecf56e7dd82aae
+size 604

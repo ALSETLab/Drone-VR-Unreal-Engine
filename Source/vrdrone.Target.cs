@@ -1,14 +1,3 @@
-// Copyright Epic Games, Inc. All Rights Reserved.
-
-using UnrealBuildTool;
-using System.Collections.Generic;
-
-public class vrdroneTarget : TargetRules
-{
-	public vrdroneTarget( TargetInfo Target) : base(Target)
-	{
-		Type = TargetType.Game;
-		DefaultBuildSettings = BuildSettingsVersion.V2;
-		ExtraModuleNames.AddRange( new string[] { "vrdrone" } );
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:514bfc52889940843193992ecb9d4f4f072cd290532fb10c07bf8835f4ebbea1
+size 367
