@@ -6,7 +6,7 @@ The repository includes an already functional drone model with one level being n
 The model was created using Dymola and instructions on how to make such a project from scratch will be included in this file.
 ## How to use the plugin
 The Unreal-FMI plugin was created by Scott Greenwood of Oak Ridge National Laboratories and the most recent version is located [here](https://github.com/ORNL-Modelica/UnrealEngine-FMIPlugin).
-Alternatively you can use the plugin included in the project Just transfer the plugin folder from the original project to the next one.
+Alternatively you can use the plugin included in the project. Just transfer the plugin folder from the original project to the next one.
 ## Making the project from scratch
 ### Setting up the project:
 
