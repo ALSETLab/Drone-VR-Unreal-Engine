@@ -30,3 +30,10 @@ Now copy and paste it into the plugins folder we just created.
 3. In the details window there is M path field, click on the ellipses next to it and navigate the browser to find the desired FMU.
 4. Once the fmu file is selected, a list of state variables will appear and you can choose whch variable to keep track of.
 5. The FMU will only give values to those variable, if you want the object to do anything based on those varaible you will need to program it.
+
+
+## Using the Project as is:
+The project has two levels, one with just the drone model and another with the drone model and VR components. Unfortunately the Vr Level does not include hand animations, it was crashing the project and I ran out of ime to fix it. Perhaps someone with better knowledge on c++ programming can fix it. In either level you can include a differen FMU and reprogram the blueprints to suit your needs for the project.
+
+## If you have questions:
+You can email me at jblewin100@gmail.com.
